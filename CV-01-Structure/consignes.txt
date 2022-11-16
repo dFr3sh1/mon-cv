@@ -1,0 +1,9 @@
+Instructions
+Créez une page HTML avec une structure de base. Enregistrer le fichier en html dans un nouveau dossier.
+Enregistrer les 4 fichiers images ci-jointes dans ce dossier
+Dans votre nouveau fichier HTML :
+Ajoutez votre nom et votre prénom en titre principal dans un Header.
+Ajoutez une image d’avatar dans le Header
+Dans une balise <div></div> :
+ ajoutez 3 Sections avec un titre secondaire (mon expérience, mes compétences, ma formation).
+Pour la suite, suivre les indications sur l’aperçu fourni (fichier en PJ : "aperçu-CV-structure-aide.jpg"). Vous pouvez remplacer le faux texte par vos propres infos.
