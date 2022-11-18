@@ -1,0 +1,45 @@
+body {
+    background-color: red;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: white;
+    text-align: left;
+}
+
+#photoProfil {
+    float: right;
+    margin: -30px -10px 0 0;
+
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    color: white;
+}
+
+.center {
+    text-align: center;
+    color: red;
+}
+
+P.center {
+    text-align: center;
+    color: red;
+}
+
+#frameSkills {
+    border: 2px;
+    color: white;
+}
+
+
+</style>
