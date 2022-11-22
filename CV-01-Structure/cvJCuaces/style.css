@@ -1,45 +1,153 @@
 body {
-    background-color: red;
+    background-color: #FEF8F8;
+    font-size: 100%;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    color: white;
+.header {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    padding: 10px, 10px;
+    align: centre;
+}
+
+.header a {
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #313549;
+}
+
+a:hover,
+a:active {
+    color: #18BFAB;
+}
+
+h1 {
+    color: #313549;
+    font-size: 4.1vw;
+    font-weight: regular;
+    font-family: 'Sono', sans-serif;
+    letter-spacing: 0.7pt;
+    line-height: 45px;
+    text-shadow: #000000 0 0 15px 0;
+}
+
+.home {
+    margin-left: 9%;
+    margin-top: 15%;
+}
+
+.photoProfil {
+    float: right;
+    margin-top: -450px;
+    margin-right: -15px;
+}
+
+.logosHome {
+    padding: 0 10px 0 10px;
+    margin-left: 9%;
+    margin-top: 200px;
+}
+
+h2 {
+    color: #313549;
+    font-family: 'Sono', sans-serif;
+    font-size: 3.5vw;
     text-align: left;
 }
 
-#photoProfil {
-    float: right;
-    margin: -30px -10px 0 0;
+h3 {
+    color: #313549;
+    font-family: 'Sono', sans-serif;
+    font-size: 2.5vw;
+    text-align: left;
+}
 
+h4 {
+    color: #313549;
+    font-family: 'Sono', sans-serif;
+    font-size: 2vw;
+    text-align: left;
+}
+
+.nameHome {
+    float: right;
+    margin-top: -75px;
+}
+
+.quiSuisJe h2 {
+    margin-left: 9%;
+    color: #18BFAB;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+.experience {
+    background-color: #18BFAB;
+    width: 100%;
+    height: 100%;
+}
+
+.experience h2 {
+    color: #FEF8F8;
+    padding-top: 70px;
+    margin-left: 9%;
+    margin-bottom: 7%;
+    font-size: 3.5vw;
+    font-weight: bolder;
+}
+
+.experience h3 {
+    margin-left: 9%;
+}
+
+.formation {
+    background-color: #18BFAB;
+}
+
+.formation h2 {
+    color: #FEF8F8;
+    padding-top: 70px;
+    margin-left: 9%;
+    margin-bottom: 7%;
+    font-size: 3.5vw;
+    font-weight: bolder;
+}
+
+.formation h3,
+h4 {
+    margin-left: 9%;
+}
+
+.formation h4 {
+    margin-top: -1.5%;
 }
 
 p {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #313549;
+    margin-left: 9%;
+    margin-right: 9%;
+    font-family: 'Sono', sans-serif;
+    font-weight: 400;
     font-size: 20px;
 }
 
 ul {
-    color: white;
+    padding: 10px;
+    margin-top: -2%;
 }
 
-.center {
-    text-align: center;
-    color: red;
+li {
+    color: #313549;
+    margin-left: 9%;
+    font-family: 'Sono', sans-serif;
+    font-size: 20px;
 }
 
-P.center {
-    text-align: center;
-    color: red;
+.logosFormation {
+    margin-top: 7%;
+    margin-left: 9%;
 }
-
-#frameSkills {
-    border: 2px;
-    color: white;
-}
-
 
 </style>
