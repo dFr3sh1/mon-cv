@@ -13,45 +13,40 @@
 </head>
 
 <body>
-
-    <div class="header" alt="header">
-        <section class="header" alt="header">
-            <header class="header" alt="header">
-                <a href="accueil" target="_self">accueil</a>
-                <a href="quiSuisJe?" target="_self">qui suis-je ?</a>
-                <a href="experience" target="_self">expérience</a>
-                <a href="formation" target="_self">formation</a>
-                <a href="passions" target="_self">passions</a>
-                <a href="meContacter" target="_self">me contacter</a>
-            </header>
+    <section id="mainView" alt="vue principale">
+        <header class="header" alt="header">
+            <a href="#mainView" target="_self">accueil</a>
+            <a href="#quiSuisJe" target="_self">qui suis-je ?</a>
+            <a href="#sectionTitle" target="_self">expérience</a>
+            <a href="#sectionTitle2" target="_self">formation</a>
+            <a href="#passions" target="_self">passions</a>
+            <a href="#meContacter" target="_self">me contacter</a>
+        </header>
+        <section class="profil" alt="profil"=>
+            <h1 class="profilTitle" alt="direction de projets digitaux">Dir. de projets digitaux /</h1>
+            <h1 class="profilTitle" alt="web developer">Web Developer /</h1>
+            <h1 class="profilTitle" alt="iOS developer">iOS Developer</h1>
+            <img class="photoProfil" src="images/photoProfilRognee.png" alt="jose cuaces" width="455" height="503">
         </section>
-    </div>
-    <div class="home" alt="home">
-        <span>
-            <h1>Acheteur International /</h1>
-            <h1>Web Developer /</h1>
-            <h1>iOS Developer</h1>
-            <img class="photoProfil" src="images/photoProfilRognee.png" alt="jose cuaces" width="495" height="543">
-        </span>
-    </div>
-    <div class="logosHome" alt="logosHome">
-        <span>
+    </section>
+    <section class="logosHome" alt="logosHome">
+        <section>
             <img src="images/swiftLogo.png" alt="swift" width="67" height="60">
             <img src="images/logo-html5.png" alt="html" width="67" height="60" style="padding: 0 10px 0 20px">
             <img src="images/logo-css.png" alt="css" width="67" height="60" style="padding: 0 10px 0 10px">
             <img src="images/logo-js.png" alt="javascript" width="67" height="60" style="padding: 0 10px 0 10px">
             <img src="images/logo-figma.png" alt="figma" width="67" height="60" style="padding: 0 20px">
-        </span>
-        <span class="nameHome">
+        </section>
+        <section id="nameHome">
             <h2 style="font-size: 50px; text-align: right">josé cuacés</h2>
-            <h2 style="font-size: 20px; margin-top: -25px;">josecuaces@gmail.com | + 33 (0) 6 95 06 52 67</h3>
-        </span>
-    </div>
+            <h3 style="font-size: 20px; margin-top: -25px;">josecuaces@gmail.com | + 33 (0) 6 95 06 52 67</h3>
+        </section>
+    </section>
     <br>
     <br>
     <br>
     <br>
-    <section class="quiSuisJe" alt="qui suis-je ?">
+    <section id="quiSuisJe" class="quiSuisJe" alt="qui suis-je ?">
         <div>
             <h2>quis suis-je ?</h2>
             <p>Diplômé Master Achat et Négoces Internationaux en reconversion professionnelle dans le computer science,
@@ -64,7 +59,7 @@
                 de marchandises complèxes, marchandises périssables ou marchandises à hauts risques.</p>
             <p>Afin d’être force de proposition, de mieux comprendre et de mieux exploiter ces nouvelles technologies,
                 je me suis
-                lancé dans l’aventure d’étudier la Computer Science, le développement web, la Blockchain et les Smart
+                lancé dans l’aventure d’étudier la computer Science, le développement web, la Blockchain et les Smart
                 Contracts.</p>
             <p>Aujourd’hui je développe la capacité de potentialiser le Commerce International grâce aux avantages et
                 aux atouts
@@ -76,36 +71,199 @@
     <br>
     <br>
     <br>
-    <section class="experience" alt="expérience professionnelle">
-        <div class="experience">
-            <h2>expérience professionnelle</h2>
-            <section class="experience" alt=="acheteur International">
-                <h3>Acheteur International | Créateur</h3>
+    <section id="savoirs">
+        <section class="experienceEtFormation">
+            <section class="background" alt="expérience professionnelle">
+                <h2 id="sectionTitle">expérience professionnelle</h2>
+                <section class="experienceEtFormation" alt=="acheteur International">
+                    <h3>Acheteur International | Créateur</h3>
+                    <h4>Oct 2017 - Sept 2022 | popfresh.co | Import/Export F&L | Lille, France</h4>
+                    <ul id="missionList">
+                        <li>J'ai construit un réseau de producteurs et d'acheteurs sur plusieurs pays de l'Amérique
+                            Latine,
+                            France, Espagne, Pays Bas, Portugal et Singapour.</li>
+                        <li>J'ai négocié des contrats cadre auprès de producteurs et importateurs dans différents pays
+                            Europe et hors Europe.</li>
+                        <li>J'ai négocié prix, délais et quantités de produits et services.</li>
+                        <li>J'ai identifié, évalué et validé de producteurs clés par pays.</li>
+                        <li>J'ai coordonné de services transversaux à la livraison et l'importation de produits frais
+                            (banane, ananas, avocat, pitaya).</li>
+                        <li>J'ai identifié opportunités de ristournes auprès de producteurs et fournisseurs.</li>
+                        <li>Clients : Capexo, Lion d'Or, Fruits du Monde, Ferreira Da Silva.</li>
+                    </ul>
+                </section>
+                <section class="experienceEtFormation" alt="coach business game">
+                    <h3>Coach Business Game</h3>
+                    <h4>Dec 2020 - En cours | Edhec Business School | Formation | Lille, France</h4>
+                    <ul id="missionList">
+                        <li>Coach de business games pour les étudiants en Master.</li>
+                    </ul>
+                </section>
+                <section class="experienceEtFormation" alt="manager commercial achats/ventes">
+                    <h3>Manager Commercial Achats/Ventes</h3>
+                    <h4>Oct 2015 - Oct 2017 | ZoOM Créatif | Marketing et Communication | Lille, France</h4>
+                    <ul id="missionList">
+                        <li>J'ai défini et développé la stratégie commerciale et d'achats.</li>
+                        <li>J'ai mis en marche la stratégie "Make or Buy" lors d'un projet de production de cardboards
+                            pours
+                            les clients du notre service de photos 3D.</li>
+                        <li>Portefeuille clients : Dassasult Aviation, Steelcase Solutions.</li>
+                    </ul>
+                </section>
+                <section class="experienceEtFormation" alt="assistant de négociations internationales">
+                    <h3>Assistant de Négociations Internationales</h3>
+                    <h4>Nov 2013 - Sept 2015 | SNC OIA Groupe | Grande Distribution Mondiale | Villeneuve d'Ascq, France
+                    </h4>
+                    <ul id="missionList">
+                        <li>J'ai collecté et piloté les données fournisseurs "Grandes Comptes".</li>
+                        <li>J'ai suivi l'évolution des CAs des campagnes de ventes par pays.</li>
+                        <li>J'ai tracé les opportunités de ristourne.</li>
+                    </ul>
+                </section>
+                <section class="experienceEtFormation" alt="gérant associé">
+                    <h3>Gérant - Associé</h3>
+                    <h4>Mar 2009 - Nov 2011 | PSH Libertad | Services Hygiéniques BtoB | Santa Marta, Colombie
+                    </h4>
+                    <ul id="missionList">
+                        <li>J'ai négocié des contrats cadres, marchés publiques et privés.</li>
+                        <li>J'ai créé des nouveaux services dans le secteur de l'hygiène.</li>
+                        <li>J'ai managé une équipe de 7 personnes.</li>
+                    </ul>
+                </section>
             </section>
-            <section class="formation" alt="formation">
-                <div>
-                    <h2>formation</h2>
-                    <section class="formation" alt="la nurserie">
-                        <h3>Développement Web | En cours</h3>
-                        <h4>La Nurserie | Euratechnologies | 2022-12 | Lille, France</h4>
-                        <ul>
-                            <li>Gestion de projets digitaux et Méthodologie Agile/Scrum</li>
-                            <br>
-                            <li>HTML, CSS, JAVASCRIPT.</li>
-                        </ul>
-                        <span class="logosFormation" alt="logos softwares formation">
-                            <img src="images/logo-html5.png" alt="html" width="67" height="60">
-                            <img src="images/logo-css.png" alt="css" width="67" height="60" style="padding: 0 10px 0 10px">
-                            <img src="images/logo-js.png" alt="javascript" width="67" height="60" style="padding: 0 10px 0 10px">
-                            <img src="images/logo-miro.png" alt="miro" width="67" height="60" style="padding: 0 10px 0 10px">
-                            <img src="images/logo-vscode.png" alt="vscode" width="67" height="60" style="padding: 0 10px 0 10px">
-                            <img src="images/logo-figma.png" alt="figma" width="67" height="60" style="padding: 0 10px 0 10px">
-                            <img src="images/logo-github.png" alt="github" width="67" height="60" style="padding: 0 20px">
-                        </span>
+        </section>
+        <section class="experienceEtFormation">
+            <section class="background" alt="formations et études">
+                <h2 id="sectionTitle2">formation</h2>
+                <section class="experienceEtFormation" alt=="web developer">
+                    <h3>Développement Web | En cours</h3>
+                    <h4>2022-11 | La Nurserie | Euratechnologies | Lille, France</h4>
+                    <ul id="programList">
+                        <li>Gestion de projets digitaux et Méthodologie Agile/Scrum.</li>
+                        <li>HTML, CSS, JAVASCRIPT.</li>
+                    </ul>
+                    <section class="logosFormation" alt="logos softwares formation">
+                        <img src="images/logo-html5.png" alt="html" width="67" height="60">
+                        <img src="images/logo-css.png" alt="css" width="67" height="60" style="padding: 0 10px 0 10px">
+                        <img src="images/logo-js.png" alt="javascript" width="67" height="60"
+                            style="padding: 0 10px 0 10px">
+                        <img src="images/logo-miro.png" alt="miro" width="67" height="60"
+                            style="padding: 0 10px 0 10px">
+                        <img src="images/logo-vscode.png" alt="vscode" width="67" height="60"
+                            style="padding: 0 10px 0 10px">
+                        <img src="images/logo-figma.png" alt="figma" width="67" height="60"
+                            style="padding: 0 10px 0 10px">
+                        <img src="images/logo-github.png" alt="github" width="67" height="60" style="padding: 0 20px">
                     </section>
-                </div>
+                </section>
+                <section class="experienceEtFormation" alt=="iOS development">
+                    <h3>Développement d'applications iOS | Programme AFP et Extended </h3>
+                    <h4>2022-11 | Simplon & Apple Foundation | Lille, France</h4>
+                    <ul id="programList">
+                        <li>Développement d'applications.</li>
+                        <li>Gestion de projets informatiques.</li>
+                        <li>Storytelling.</li>
+                        <li>UX / UI.</li>
+                        <li>Swift, SwiftUI, XCode.</li>
+                        <li>Réalisations :
+                            <ul>
+                                <li>
+                                    Alfred.é : développement d'une application d'accompagnement à la transition
+                                    numérique et des
+                                    associations et des acteurs d'économie sociale et solidaire. Apparils iPhone.
+                                    <ul>
+                                        <li>Mock up</li>
+                                        <li>Maquette</li>
+                                        <li>Programmation
+                                            <ul>
+                                                <li>Front-end</li>
+                                                <li>Back-end</li>
+                                            </ul>
+                                        </li>
+                                        <li>Défis : l'utilisation de Postman et la liaison de l'application avec le
+                                            monde réel.</li>
+                                    </ul>
+                                </li>
+                                <li>Sophos : développement d'une application d'apprentissage par la collaboration, à
+                                    destination des familles avec des enfants. Appareils iPhone.
+                                    <ul>
+                                        <li>Mock Up</li>
+                                        <li>Maquette</li>
+                                        <li>Programmation
+                                            <ul>
+                                                <li>Front-end</li>
+                                                <li>Back-end</li>
+                                            </ul>
+                                        </li>
+                                        <li>Défis : la création des animations et la synchronisation avec l'évolution
+                                            des parcours</li>
+                                    </ul>
+                                </li>
+                        </li>
+                    </ul>
+                </section>
+                <section class="logosFormation" alt="logos softwares formation">
+                    <img src="images/swiftLogo.png" alt="swift" width="67" height="60" style="padding: 0 10px 0 10px">
+                    <img src="images/logo-figma.png" alt="figma" width="67" height="60" style="padding: 0 10px 0 10px">
+                    <img src="images/logo-xcode.png" alt="xcode" width="67" height="60" style="padding: 0 10px 0 10px">
+                    <img src="images/logo-github.png" alt="github" width="67" height="60"
+                        style="padding: 0 10px 0 10px">
+                    <img src="images/logo-trello.png" alt="trello" width="67" height="60"
+                        style="padding: 0 10px 0 10px">
+                    <img src="images/logo-airtable.png" alt="airtable" width="67" height="60"
+                        style="padding: 0 10px 0 10px">
+                    <img src="images/logo-postman.png" alt="postman" width="67" height="60" style="padding: 0 20px">
+                </section>
+                <section class="experienceEtFormation" alt=="master achats et négoces internationaux">
+                    <h3>Master Achats et Négoces Internationaux</h3>
+                    <h4>2015 | ULCO/ISICD-CO | Dunkerque, France</h4>
+                    <ul id="programList">
+                        <li>Définition d'une politique achats.</li>
+                        <li>Création d'une stratégie achats.</li>
+                        <li>Marketing Achat.</li>
+                        <li>Achat Innovation et Propriété Intellectuelle.</li>
+                        <li>Géopolitique et Achats Internationales.</li>
+                        <li>Douane Import/Export.</li>
+                        <p>Formation réalisée dans le cadre d'une alternance au sein de de la Centrale International
+                            d'Achats du Groupe Auchan</p>
+                        <p>Mémoire : Comment rationaliser les achats au sein de la Business Unit Auto/Brico du Groupe
+                            Auchan ?</p>
+                    </ul>
+                </section>
+                <section class="experienceEtFormation" alt=="international management and business stidues">
+                    <h3>International Management and Business Studies | Postgraduated Degree</h3>
+                    <h4>2015 | ISICD-CO | Dunkerque, France</h4>
+                    <ul id="programList">
+                        <li>Définition d'une politique d'implantation à l'international.</li>
+                        <li>Définition d'une stratégie commerciale.</li>
+                        <li>Management des relations interculturelles.</li>
+                        <li>Gestion de projets.</li>
+                        <li>Gestion de risques.</li>
+                        <li>Finances internationales.</li>
+                        <p>Formation réalisée dans le cadre d'une alternance au sein de de la Centrale International
+                            d'Achats du Groupe Auchan</p>
+                        <p>Mémoire : Comment rationaliser les achats au sein de la Business Unit Auto/Brico du Groupe
+                            Auchan ?</p>
+                    </ul>
+                </section>
+                <section class="experienceEtFormation" alt=="international entrepreneurial seminar">
+                    <h3>International Entrepreneurial Seminar</h3>
+                    <h4>2014 | Mälardalen Unniversity | Västerås Campus, Mälardalen, Suède</h4>
+                    <ul id="programList">
+                        <li>Comment structurer une idée d'affair avec le Business Model Canvas.</li>
+                        <li>Analyse du besoin.</li>
+                        <li>Conception.</li>
+                        <li>Storytelling.</li>
+                        <li>Pitch.</li>
+                        <p>Seminaire réalisée dans le cadre de ma formation International Management and Business
+                            Studies à l'ISCID-C0.</p>
+                        <p>Groupe de travaille composé par des élèves des universités d'Allemagne, Belgique, Espagne,
+                            France et la Suède.</p>
+                    </ul>
+                </section>
             </section>
-        </div>
+
+        </section>
     </section>
 
 

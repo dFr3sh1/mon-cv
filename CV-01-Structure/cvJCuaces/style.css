@@ -3,51 +3,69 @@ body {
     font-size: 100%;
 }
 
+#mainView {
+    width: 100%;
+    /* display: block; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
 .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin-top: 3%;
     margin-bottom: 3%;
-    margin-left: 10%;
-    padding: 10px, 10px;
-    align: centre;
+    margin-left: 27%;
 }
 
 .header a {
+    margin-bottom: 0.5%;
     padding: 15px;
     text-decoration: none;
     font-weight: 600;
     color: #313549;
 }
 
+.profil {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 1095px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
 a:hover,
 a:active {
     color: #18BFAB;
+    font-size: 120%;
 }
 
 h1 {
+    margin-left: 11%;
     color: #313549;
-    font-size: 4.1vw;
-    font-weight: regular;
+    font-size: 4.0vw;
+    font-weight: 800;
     font-family: 'Sono', sans-serif;
-    letter-spacing: 0.7pt;
-    line-height: 45px;
-    text-shadow: #000000 0 0 15px 0;
-}
+    text-shadow: 2px 2px 4px grey;
+    letter-spacing: -2px;
+    line-height: 40px;
 
-.home {
-    margin-left: 9%;
-    margin-top: 15%;
 }
 
 .photoProfil {
     float: right;
     margin-top: -450px;
-    margin-right: -15px;
+    margin-right: -340px;
 }
 
 .logosHome {
     padding: 0 10px 0 10px;
-    margin-left: 9%;
-    margin-top: 200px;
+    margin-left: 7%;
+    margin-top: 3%;
+    margin-bottom: 7%;
 }
 
 h2 {
@@ -71,57 +89,56 @@ h4 {
     text-align: left;
 }
 
-.nameHome {
+#nameHome {
     float: right;
-    margin-top: -75px;
+    margin-top: -10%;
 }
 
 .quiSuisJe h2 {
+    margin-top: 10%;
     margin-left: 9%;
+    padding-top: 5%;
+    padding-bottom: 3%;
     color: #18BFAB;
     font-size: 3.5vw;
     font-weight: bold;
 }
 
-.experience {
+#savoirs {
     background-color: #18BFAB;
     width: 100%;
-    height: 100%;
+    display: block;
 }
 
-.experience h2 {
+.background {
+    margin-top: 3%;
+    margin-left: 7%;
+}
+#sectionTitle {
     color: #FEF8F8;
     padding-top: 70px;
-    margin-left: 9%;
+    margin-left: 3%;
     margin-bottom: 7%;
     font-size: 3.5vw;
     font-weight: bolder;
 }
 
-.experience h3 {
-    margin-left: 9%;
-}
-
-.formation {
-    background-color: #18BFAB;
-}
-
-.formation h2 {
+#sectionTitle2 {
     color: #FEF8F8;
     padding-top: 70px;
-    margin-left: 9%;
+    margin-left: 3%;
     margin-bottom: 7%;
     font-size: 3.5vw;
     font-weight: bolder;
 }
 
-.formation h3,
-h4 {
-    margin-left: 9%;
+.experienceEtFormation {
+    margin-right: 1%;
 }
-
-.formation h4 {
-    margin-top: -1.5%;
+.experienceEtFormation h3, h4 {
+    margin-left: 3%;
+    margin-bottom: -2%;
+    margin-right: 3%;
 }
 
 p {
@@ -133,21 +150,40 @@ p {
     font-size: 20px;
 }
 
-ul {
+#missionList {
     padding: 10px;
-    margin-top: -2%;
+    margin-top: 4%;
+    margin-bottom: 7%;
+    margin-right: 5%;
+    
+}
+
+#programList {
+    padding: 10px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 5%;
+    
 }
 
 li {
     color: #313549;
-    margin-left: 9%;
+    margin-left: 4%;
     font-family: 'Sono', sans-serif;
     font-size: 20px;
 }
 
-.logosFormation {
-    margin-top: 7%;
+.formation h2 {
+    color: #FEF8F8;
+    padding-top: 70px;
     margin-left: 9%;
+    margin-bottom: 7%;
+    font-size: 3.5vw;
+    font-weight: bolder;
 }
 
-</style>
+.logosFormation {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 10%;
+}
