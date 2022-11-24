@@ -17,6 +17,7 @@ body {
     margin-top: 3%;
     margin-bottom: 3%;
     margin-left: 27%;
+    position: static;
 }
 
 .header a {
@@ -25,6 +26,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     color: #313549;
+    position: static;
 }
 
 .profil {
@@ -34,25 +36,23 @@ body {
     width: 1095px;
     padding-top: 5%;
     padding-bottom: 5%;
+    position: absolute;
 
 }
 
 a:hover,
 a:active {
     color: #18BFAB;
-    font-size: 120%;
 }
 
 h1 {
-    margin-left: 11%;
+    margin-left: 8%;
     color: #313549;
     font-size: 4.0vw;
-    font-weight: 800;
+    font-weight: bolder;
     font-family: 'Sono', sans-serif;
-    text-shadow: 2px 2px 4px grey;
     letter-spacing: -2px;
     line-height: 40px;
-
 }
 
 .photoProfil {
@@ -63,9 +63,9 @@ h1 {
 
 .logosHome {
     padding: 0 10px 0 10px;
-    margin-left: 7%;
-    margin-top: 3%;
-    margin-bottom: 7%;
+    margin-left: 5%;
+    margin-top: 40%;
+    margin-bottom: 4%;
 }
 
 h2 {
@@ -73,6 +73,7 @@ h2 {
     font-family: 'Sono', sans-serif;
     font-size: 3.5vw;
     text-align: left;
+    
 }
 
 h3 {
@@ -95,8 +96,8 @@ h4 {
 }
 
 .quiSuisJe h2 {
-    margin-top: 10%;
-    margin-left: 9%;
+    margin-top: 5%;
+    margin-left: 6%;
     padding-top: 5%;
     padding-bottom: 3%;
     color: #18BFAB;
@@ -110,11 +111,11 @@ h4 {
     display: block;
 }
 
-.background {
+.backgroundSavoirs {
     margin-top: 3%;
-    margin-left: 7%;
+    margin-left: 3%;
 }
-#sectionTitle {
+#sectionTitle { 
     color: #FEF8F8;
     padding-top: 70px;
     margin-left: 3%;
@@ -135,7 +136,15 @@ h4 {
 .experienceEtFormation {
     margin-right: 1%;
 }
-.experienceEtFormation h3, h4 {
+.experienceEtFormation h3, h4, p {
+    margin-top: 4%;
+    margin-left: 3%;
+    margin-bottom: -2%;
+    margin-right: 3%;
+
+}
+
+.experienceEtFormation p {
     margin-left: 3%;
     margin-bottom: -2%;
     margin-right: 3%;
@@ -143,11 +152,12 @@ h4 {
 
 p {
     color: #313549;
-    margin-left: 9%;
+    margin-left: 6%;
     margin-right: 9%;
     font-family: 'Sono', sans-serif;
     font-weight: 400;
     font-size: 20px;
+    line-height: 30px;
 }
 
 #missionList {
@@ -171,6 +181,7 @@ li {
     margin-left: 4%;
     font-family: 'Sono', sans-serif;
     font-size: 20px;
+    line-height: 45px;
 }
 
 .formation h2 {
