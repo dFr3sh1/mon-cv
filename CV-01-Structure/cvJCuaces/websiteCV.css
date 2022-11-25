@@ -5,9 +5,10 @@ body {
 
 #mainView {
     width: 100%;
-    /* display: block; */
-    /* justify-content: center;
-    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -16,8 +17,10 @@ body {
     align-items: center;
     margin-top: 3%;
     margin-bottom: 3%;
-    margin-left: 27%;
-    position: static;
+    position: fixed;
+    top: 0;
+    bottom: 10;
+    
 }
 
 .header a {
@@ -26,18 +29,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     color: #313549;
-    position: static;
-}
-
-.profil {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 1095px;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    position: absolute;
-
 }
 
 a:hover,
@@ -45,27 +36,44 @@ a:active {
     color: #18BFAB;
 }
 
+.profil {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.profilTitle {
+    display: block;
+    flex: 80%;
+    margin-top: 120px;
+    margin-right: -45px;
+}
+
 h1 {
-    margin-left: 8%;
+    display: block;
+    margin-left: 80px;
     color: #313549;
-    font-size: 4.0vw;
+    font-size: 4vw;
     font-weight: bolder;
     font-family: 'Sono', sans-serif;
     letter-spacing: -2px;
-    line-height: 40px;
+    line-height: 1px;
 }
 
 .photoProfil {
+    display: flex;
+    flex: 20%;
     float: right;
-    margin-top: -450px;
-    margin-right: -340px;
+    margin-top: 80px;
+    margin-right: -9px;
 }
 
 .logosHome {
-    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 5%;
-    margin-top: 40%;
-    margin-bottom: 4%;
 }
 
 h2 {
@@ -73,7 +81,7 @@ h2 {
     font-family: 'Sono', sans-serif;
     font-size: 3.5vw;
     text-align: left;
-    
+
 }
 
 h3 {
@@ -90,9 +98,9 @@ h4 {
     text-align: left;
 }
 
-#nameHome {
+.nameHome {
     float: right;
-    margin-top: -10%;
+    padding-bottom: 40px;
 }
 
 .quiSuisJe h2 {
@@ -109,22 +117,15 @@ h4 {
     background-color: #18BFAB;
     width: 100%;
     display: block;
+    padding-bottom: 30px;
 }
 
 .backgroundSavoirs {
     margin-top: 3%;
     margin-left: 3%;
 }
-#sectionTitle { 
-    color: #FEF8F8;
-    padding-top: 70px;
-    margin-left: 3%;
-    margin-bottom: 7%;
-    font-size: 3.5vw;
-    font-weight: bolder;
-}
 
-#sectionTitle2 {
+.sectionTitles {
     color: #FEF8F8;
     padding-top: 70px;
     margin-left: 3%;
@@ -136,18 +137,24 @@ h4 {
 .experienceEtFormation {
     margin-right: 1%;
 }
-.experienceEtFormation h3, h4, p {
+
+.experienceEtFormation h3,
+h4 {
+    color: #FEF8F8;
     margin-top: 4%;
-    margin-left: 3%;
-    margin-bottom: -2%;
     margin-right: 3%;
+    margin-bottom: -2%;
+    margin-left: 3%;
+
 
 }
 
 .experienceEtFormation p {
-    margin-left: 3%;
-    margin-bottom: -2%;
+    color: #FEF8F8;
+    margin-top: 4%;
     margin-right: 3%;
+    margin-bottom: -2%;
+    margin-left: 3%;
 }
 
 p {
@@ -160,24 +167,16 @@ p {
     line-height: 30px;
 }
 
-#missionList {
+.missionAndProgramList {
     padding: 10px;
     margin-top: 4%;
     margin-bottom: 7%;
     margin-right: 5%;
-    
-}
 
-#programList {
-    padding: 10px;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-right: 5%;
-    
 }
 
 li {
-    color: #313549;
+    color: #FEF8F8;
     margin-left: 4%;
     font-family: 'Sono', sans-serif;
     font-size: 20px;
@@ -197,4 +196,60 @@ li {
     margin-top: 3%;
     margin-left: 3%;
     margin-bottom: 10%;
+}
+
+#seminaire{
+    margin-bottom: 70px;
+}
+
+#sectionTitlePassions {
+    color: #313549;
+    padding-top: 70px;
+    margin-left: 5%;
+    margin-bottom: 7%;
+    font-size: 3.5vw;
+    font-weight: bolder;
+}
+
+.passionsList li {
+    color: #313549;
+    margin-left: 4%;
+    font-family: 'Sono', sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+
+#passions {
+    height: 100vh;
+}
+
+#meContacter {
+    margin-top: 20px;
+
+}
+.contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+
+#greetings {
+    padding-top: 170px;
+    padding-left: 30px;
+
+}
+
+.footerData {
+    margin-top: 20%;
+    padding-left: 30px;
+}
+
+.footerBaseline {
+    padding-top: 100px;
+}
+
+#author {
+    color: #313549;
 }
