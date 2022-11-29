@@ -12,12 +12,13 @@ body {
 }
 
 .header {
-    width: 50%;
+    width: 55%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 15%;
     position: fixed;
     top: 0;
     bottom: 10;
@@ -28,7 +29,9 @@ body {
     box-shadow: 2px 0 4px #313549;
     background-color: #FEF8F8;
     margin: 1%;
-    padding: 10px;
+    margin-left: 2%;
+    padding: 1.2%;
+    position: relative;
     text-decoration: none;
     font-family: 'Sono', sans-serif;
     font-weight: 600;
@@ -42,16 +45,15 @@ a:active {
 
 .profil {
     width: 100vw;
-    padding-top: 11em;
+    padding-top: 15%;
 }
 
 h1 {
-    padding-left: 1.3em;
+    padding-left: 5%;
     color: #313549;
     font-size: 4vw;
     font-weight: 500;
     font-family: 'Sono', sans-serif;
-    letter-spacing: -1px;
     line-height: .6em;
 }
 
@@ -61,8 +63,8 @@ h1 {
 
 #photoProfil {
     float: right;
-    margin-top: -31em;
-    padding-right: -9px;
+    margin-top: -35%;
+    padding-right: -5%;
     position: relative;
 }
 
@@ -71,14 +73,14 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2em;
-    padding-right: 1em;
-    padding-left: 4.4em;
+    padding-top: 2%;
+    padding-right: 1%;
+    padding-left: 5%;
 }
 
 .nameHome {
-    margin-top: -3em;
-    padding: 1.5em;
+    margin-top: -3.7%;
+    padding: 1%;
 }
 
 h2 {
@@ -131,16 +133,16 @@ h4 {
 }
 
 .quiSuisJe {
-    padding-top: 1em;
-    padding-right: 1em;
-    padding-bottom: 2em;
-    padding-left: 1em;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    padding-left: 1%;
 }
 
 .quiSuisJe h2 {
-    padding-left: 4em;
-    padding-top: 1em;
-    padding-bottom: 1em ;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 2%;
     color: #18BFAB;
     font-size: 3.5vw;
     font-weight: bold;
@@ -150,41 +152,41 @@ h4 {
     background-color: #18BFAB;
     width: 100vw;
     display: block;
-    padding-bottom: 4em;
+    padding-bottom: 5%;
 }
 
 .sectionTitles {
     color: #FEF8F8;
-    padding-top: 2em;
-    padding-bottom: 1em;
-    padding-left: 4.5em;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    padding-left: 15%;
     font-size: 3.5vw;
     font-weight: bolder;
 }
 
 .experienceEtFormation h3 {
     color: #FEF8F8; 
-    padding-right: 1em;
-    padding-left: 2.7em;
+    padding-right: 1%;
+    padding-left: 7%;
 }
 
 .experienceEtFormation h4 {
     color: #FEF8F8; 
-    padding-right: 1em;
-    padding-left: 3.5em;
+    padding-right: 1%;
+    padding-left: 7%;
 }
 
 .experienceEtFormation p {
     color: #FEF8F8;
-    padding-right: 5em;
-    padding-left: 5em;
+    padding-right: 5%;
+    padding-left: 7%;
 }
 
 p {
     color: #313549;
-    padding-left: 5.5em;
-    padding-right: 5em;
-    padding-bottom: 1em;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    padding-left: 7%;    
     font-family: 'Sono', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -192,36 +194,36 @@ p {
 }
 
 .missionAndProgramList {
-    padding: 2em;
+    padding: 2%;
 }
 
 li {
     color: #FEF8F8;
-    margin-left: 4.3em;
+    margin-left: 6.5%;
     font-family: 'Sono', sans-serif;
     font-size: 20px;
     line-height: 2.5em;
 }
 
 .logosFormation {
-    padding-top: 2em;
-    padding-bottom: 3em;
-    padding-left: 5.6em;
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+    padding-left: 6.5%;
     
 }
 
 #passionTitle {
     color: #313549;
-    padding-top: 1.5em;
-    padding-bottom: 1em;
-    padding-left: 4.5em;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    padding-left: 15%;
     font-size: 3.5vw;
     font-weight: bolder;
 }
 
 .passionsList li {
     color: #313549;
-    margin-left: 4.3em;
+    margin-left: 5.7%;
     font-family: 'Sono', sans-serif;
     font-size: 20px;
     line-height: 45px;
@@ -233,21 +235,21 @@ li {
 
 #contact {
     height: 100vh;
-    margin-top: 20px;
+    margin-top: 1%;
     display: flex;
     flex-direction: row;
 }
 
 #greetings {
-    padding-top: 170px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 11%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .phraseGreetings {
     background-color: #FEF8F8;
     font-size: 2em;
-    padding: 10px;
+    padding: 3%;
 }
 
 #unBonCafe {
@@ -256,13 +258,13 @@ li {
 }
 
 .footerData {
-    margin-top: 20%;
-    padding-left: 30px;
+    /* margin-top: 0%; */
+    padding-left: 3%;
 }
 
 .footerBaseline {
-    margin-top: 7em;
-    margin-left: 1em;
+    margin-top: 20%;
+    margin-left: 3%;
     
 }
 
