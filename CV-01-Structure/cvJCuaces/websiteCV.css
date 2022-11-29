@@ -103,6 +103,26 @@ h4 {
     font-weight: 500;
 }
 
+#laPuissance {
+    box-shadow: 2px 0 4px #313549;
+}
+
+#dejaDansLUnivers {
+    box-shadow: 2px 0 4px #313549;
+}
+
+#jeDeveloppe {
+    box-shadow: 2px 0 4px #313549;
+}
+
+#maCapacite {
+    box-shadow: 2px 0 4px #313549;
+}
+
+#monObjectif {
+    box-shadow: 2px 0 4px #313549;
+}
+
 .quiSuisJe {
     padding-top: 1em;
     padding-right: 1em;
@@ -221,6 +241,11 @@ li {
     background-color: #FEF8F8;
     font-size: 2em;
     padding: 10px;
+}
+
+#unBonCafe {
+    margin: 1%;
+    box-shadow: 2px 0 4px #313549;
 }
 
 .footerData {
