@@ -1,0 +1,346 @@
+body {
+    background-color: #FEF8F8;
+    font-size: 100%;
+}
+
+#mainView {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 1%;
+    position: fixed;
+    top: 0;
+    bottom: 10;
+
+}
+
+.header a {
+    box-shadow: 2px 0 4px #313549;
+    background-color: #FEF8F8;
+    margin: 1%;
+    margin-left: 2%;
+    padding: 1%;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Sono', sans-serif;
+    font-weight: 600;
+    color: #313549;
+}
+
+a,
+a:hover,
+a:active {
+    color: #18BFAB;
+}
+
+.profil {
+    width: 100vw;
+    padding-top: 15%;
+}
+
+h1 {
+    padding-left: 5%;
+    color: #313549;
+    font-size: 4vw;
+    font-weight: 500;
+    font-family: 'Sono', sans-serif;
+    line-height: .6em;
+}
+
+/* #gestionTitle {
+    box-shadow: 2px 0 4px #313549;
+} */
+
+#photoProfil {
+    float: right;
+    margin-top: -35%;
+    padding-right: -5%;
+    position: relative;
+}
+
+.logosHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-right: 1%;
+    padding-left: 5%;
+}
+
+.nameHome {
+    margin-top: -3.7%;
+    padding: 1%;
+}
+
+h2 {
+    color: #313549;
+    font-family: 'Sono', sans-serif;
+    font-size: 3.5vw;
+    text-align: left;
+}
+
+h3 {
+    color: #313549;
+    font-family: 'Sono', sans-serif;
+    font-size: 2.5vw;
+    text-align: left;
+}
+
+h4 {
+    color: #313549;
+    font-family: 'Sono', sans-serif;
+    font-size: 2vw;
+    text-align: left;
+}
+
+.nameHome {
+    float: right;
+}
+
+.profilName {
+    font-weight: 500;
+}
+
+#laPuissance {
+    box-shadow: 2px 0 4px #18BFAB;
+}
+
+#dejaDansLUnivers {
+    box-shadow: 2px 0 4px #18BFAB;
+}
+
+#jeDeveloppe {
+    box-shadow: 2px 0 4px #18BFAB;
+}
+
+#maCapacite {
+    box-shadow: 2px 0 4px #18BFAB;
+}
+
+#monObjectif {
+    box-shadow: 2px 0 4px #18BFAB;
+}
+
+.quiSuisJe {
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+}
+
+.quiSuisJe h2 {
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: #18BFAB;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+#savoirs {
+    background-color: #18BFAB;
+    width: 100vw;
+    display: block;
+    padding-bottom: 5%;
+}
+
+.sectionTitles {
+    color: #FEF8F8;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    padding-left: 15%;
+    font-size: 3.5vw;
+    font-weight: bolder;
+}
+
+.experienceEtFormation h3 {
+    color: #FEF8F8;
+    padding-right: 1%;
+    padding-left: 5%;
+}
+
+.experienceEtFormation h4 {
+    color: #FEF8F8;
+    padding-right: 1%;
+    padding-left: 5%;
+}
+
+.experienceEtFormation p {
+    color: #FEF8F8;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+p {
+    color: #313549;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    font-family: 'Sono', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.missionAndProgramList {
+    padding: 2%;
+}
+
+li {
+    color: #FEF8F8;
+    margin-left: 4%;
+    font-family: 'Sono', sans-serif;
+    font-size: 20px;
+    line-height: 2.5em;
+}
+
+.logosFormation {
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+
+}
+
+#passionTitle {
+    color: #313549;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    padding-left: 15%;
+    font-size: 3.5vw;
+    font-weight: bolder;
+}
+
+.passionsList li {
+    color: #313549;
+    margin-left: 4%;
+    font-family: 'Sono', sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.passions {
+    height: 100vh;
+}
+
+#contact {
+    height: 100vh;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+#greetings {
+    padding-top: 7%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.phraseGreetings {
+    background-color: #FEF8F8;
+    font-size: 1.5em;
+    padding: 2%;
+}
+
+#unBonCafe {
+    margin: 1%;
+    box-shadow: 2px 0 4px #313549;
+}
+
+.footerData {
+    /* margin-top: 0%; */
+    padding-left: 3%;
+}
+
+.footerBaseline {
+    margin-top: 5%;
+    margin-left: 3%;
+
+}
+
+#author {
+    color: #313549;
+}
+
+.more {
+    display: none;
+    
+}
+
+.spanMore {
+    color: #FEF8F8;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: 'Sono', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.divSpanReadMore {
+    display: flex;
+}
+
+.readMoreButton {
+    box-shadow: 2px 0 4px #313549;
+    background-color: #FEF8F8;
+    border: none;
+    margin-top: -5%;
+    margin-left: 60%;
+    padding: 0.5%;
+    position: relative;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: 'Sono', sans-serif;
+    font-weight: 600;
+    color: #313549;
+}
+
+#contactMessage {
+    box-shadow: 2px 0 4px #313549;
+    background-color: #fef8fd;
+    border: none;
+    margin-left: 1%;
+    padding: 1.5%;
+    font-size: 0.7em;
+    font-family: 'Sono', sans-serif;
+    font-weight: "200";
+    color: #313549;
+}
+
+#sendMessageContact {
+    box-shadow: 2px 0 4px #313549;
+    background-color: #18BFAB;
+    border: none;
+    margin-top: -7%;
+    margin-left: 60%;
+    padding: 1.5%;
+    position: relative;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: 'Sono', sans-serif;
+    font-weight: 600;
+    color: #FEF8F8;
+}
+
+#greetingsH2 {
+    font-size: 2em;
+    text-align: right;
+}
+
+#greetingsH3 {
+    font-size: 1em;
+    margin-top: -2%;
+    text-align: right;
+}
